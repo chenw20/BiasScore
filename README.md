@@ -5,7 +5,7 @@ Datasets: [Adult Census](https://www.kaggle.com/datasets/uciml/adult-census-inco
 
 Dependencies:
 
-To train the model
+To train the model, simply run main.py, while the hyperparameters can be set in the config.yaml file.
 
 ## Citing the paper (bib)
 ```
