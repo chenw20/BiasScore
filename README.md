@@ -5,7 +5,6 @@ To train the model, run main.py. For testing, run postprocess_dp.py when the fai
 
 Datasets: [Adult Census](https://www.kaggle.com/datasets/uciml/adult-census-income), [COMPAS](https://www.kaggle.com/datasets/danofer/compass) and [CelebA](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset)
 
-Dependencies:
 
 ## Citing the paper (bib)
 ```
