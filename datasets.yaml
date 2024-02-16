@@ -1,0 +1,6 @@
+celeba:
+    root: "../celeba-dataset/"
+    metadata: "list_attr_celeba.csv"
+
+adult:
+    fulldata: "./adult_dataset/adult.csv"

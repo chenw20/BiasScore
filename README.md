@@ -1,2 +1,2 @@
-# BiasScore
-Code of Modification Bias Score (ICLR 2024)
+# MBS
+Code for Post-hoc bias scoring is optimal for fair classification.

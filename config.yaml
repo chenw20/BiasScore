@@ -1,0 +1,26 @@
+dataset: "celeba"
+target: "Attractive"
+sensitive: "Male"
+exp_id: 100
+seed: 42
+log_dir: "logs"
+
+method: "eo_flip"
+network: "rn18"
+selector: "max_acc_va"
+
+n_epochs: 100
+optim: "adam"
+batch_size: 256
+lr: 0.001
+weight_decay: 0.001
+momentum: 0.9
+scheduler: "exp"
+scheduler_gamma: 0.998
+crop: 128
+resize: 128
+
+bs_test: 10000
+threshold: 0.05
+
+num_workers: 24
