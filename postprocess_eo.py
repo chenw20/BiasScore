@@ -159,7 +159,7 @@ def run_expt(args, dry_run=False):
 
     preds_y = (preds % 2).long()
     
-    M = max(len(score1), 5000)
+    M = min(len(score1), 5000)
     score1_subset = score1[:M]
     score2_subset = score2[:M]
     if EO_Y0_sign > 0 and EO_Y1_sign > 0:
