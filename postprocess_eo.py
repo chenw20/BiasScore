@@ -270,7 +270,7 @@ def run_expt(args, dry_run=False):
         cur_pred_y[loc] = cur_pred_y_flip  
         EO0, EO1 = EO(cur_pred_y, 2* gs+ ys, True) 
         acc = Accuracy_y(cur_pred_y, 2* gs+ ys, True) 
-        print('te, thereshold: 0.1, acc:{}, eo0: {}, eo1: {}'.format(acc, EO0, EO1))
+        print('te, thereshold: {}, acc:{}, eo0: {}, eo1: {}'.format(threshold, acc, EO0, EO1))
 
             
 if __name__ == "__main__":
